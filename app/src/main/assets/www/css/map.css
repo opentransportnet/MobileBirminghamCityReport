@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+html, body, #map {
+    height: 100%;
+}
+.current-location-btn{
+    right:0;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 99999;
+    background: #fff;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow:4px 4px 4px rgba(170, 170, 170, 0.5);
+}
+
+/*IE9*/
+*::selection 
+{
+    background-color:transparent;
+} 
+*::-moz-selection
+{
+    background-color:transparent;
+}
+*
+{        
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    /*IE10*/
+    -ms-user-select: none;
+    user-select: none;
+
+    /*You just need this if you are only concerned with android and not desktop browsers.*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}    
+input[type="text"], textarea, [contenteditable]
+{
+
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+.here-block{
+    height: 44px;
+    padding-bottom: 14px;
+}
+
+.text-here-outer{
+    float:left;
+    width: 60%;
+}
+
+.btn-new-outer{
+    float:left;
+    width: 40%;
+    height: 58px;
+}
+
+.btn-new{
+    background-color: #cc3300;
+    color: #fff;
+    border-radius: 12px;
+    padding: 7px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 58px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+.text-here{
+    font-size: 16px;
+    text-align: center;
+    padding: 7px;
+}
+
+
+/*OVERWRITE Leaflet style*/
+/*.leaflet-popup-close-button{
+    display: none !important;
+}
+
+.leaflet-popup-content{
+    margin: 0 !important;
+    width: 170px !important;
+}
+
+.leaflet-popup-content-wrapper{
+    padding: 0 !important;
+}*/
+
+.leaflet-popup-content{
+    font-size: 16px;
+}
+
+.icon-size-standart{
+    font-size: 40px;
+}
+
+.curr-loc-marker{
+    color: #ef6a5f;
+}
+
+#target-img{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-image: url("../img/target.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}

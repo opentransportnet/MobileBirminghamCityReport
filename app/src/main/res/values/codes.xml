@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Birmingham</string>
+
+    <string name="facebook_app_id">152502278427603</string>
+
+    <!--Fontello icons-->
+    <string name="icon_route">&#xe800;</string>
+    <string name="icon_google">&#xe801;</string>
+    <string name="icon_fb">&#xe802;</string>
+    <string name="icon_twitter">&#xe803;</string>
+    <string name="icon_search">&#xe804;</string>
+    <string name="icon_plus">&#xe805;</string>
+    <string name="icon_filter">&#xe806;</string>
+    <string name="icon_location">&#xe807;</string>
+    <string name="icon_map">&#xe808;</string>
+    <string name="icon_pin">&#xe80b;</string>
+    <string name="icon_info">&#xe80c;</string>
+    <string name="icon_target">&#xe80f;</string>
+    <string name="icon_arrow_left">&#xe815;</string>
+    <string name="icon_trash">&#xe816;</string>
+    <string name="icon_pencil">&#xe817;</string>
+    <string name="icon_bicycle">&#xe81c;</string>
+    <string name="sun">&#xe828;</string>
+    <string name="snow">&#xe836;</string>
+    <string name="cloud">&#xe838;</string>
+    <string name="icon_menu">&#xe84e;</string>
+    <string name="icon_ok">&#xe858;</string>
+    <string name="icon_cancel">&#xe859;</string>
+    <string name="icon_underground">&#xe861;</string>
+    <string name="icon_stop">&#xe85a;</string>
+    <string name="icon_walking">&#xe85c;</string>
+    <string name="icon_bus">&#xe863;</string>
+    <string name="icon_train">&#xe864;</string>
+    <string name="icon_car">&#xe867;</string>
+    <string name="icon_tram">&#xe869;</string>
+</resources>

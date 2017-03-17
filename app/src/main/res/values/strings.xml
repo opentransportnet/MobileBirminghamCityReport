@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="title_activity_home">Birmingham City Report</string>
+    <string name="title_activity_sos">SOS call</string>
+    <string name="title_activity_language">Languages</string>
+    <string name="title_activity_about">About OTN</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="title_activity_report">Report</string>
+    <string name="title_activity_disclaimer">Disclaimer</string>
+
+    <string name="current_language">Current language:</string>
+    <string name="change_language">Change language</string>
+    <string name="sos_call">CALL TO</string>
+    <string name="sos_call_number">1188</string>
+    <string name="sos_free_call_number">FREE CALL</string>
+    <string name="sos_press">PRESS</string>
+    <string name="hydrology">Hydrology of Liberec region</string>
+    <string name="risk_objects">Risk objects</string>
+    <string name="flooding_zones">Important places during the flood</string>
+    <string name="road_information">Road information</string>
+    <string name="accident">Accident w/o \n casualties</string>
+    <string name="text_activity_about">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</string>
+    <string name="text_activity_details">Description</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="or">Or</string>
+    <string name="login_with">Login with</string>
+    <string name="register">Register</string>
+    <string name="log_in">Login</string>
+    <string name="log_out">Log out</string>
+    <string name="city_report">City report</string>
+    <string name="report">Report</string>
+    <string name="about_otn">About OTN</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="disclaimer">Disclaimer</string>
+
+    <string name="description_required">Description (required)</string>
+    <string name="no_description">No description</string>
+    <string name="report_saved">Report saved</string>
+    <string name="report_not_saved">Error! Can not save report</string>
+    <string name="network_unavailable">Network unavailable</string>
+    <string name="login_error">Login error</string>
+    <string name="pin_location">Please pin and hold the location in the map</string>
+    <string name="google_api_unavailable">Google API Unavailable</string>
+    <string name="delete_local_files">Delete all local tracks and reports?</string>
+    <string name="delete_local_files_message">You have some files that have not been uploaded to
+        server. Are you sure you want to delete all local tracks and reports?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="warning">If you have received an injury please do not use this as a reporting method. Please call the emergency services.</string>
+    <string name="warning_title">Warning!</string>
+    <string name="delete_user">User content deleted!</string>
+    <string name="delete_user_title">Delete all user content?</string>
+    <string name="delete_user_content">Do you wish to delete all content regarding you?</string>
+    <string name="server_error">Connection error. Please try again later.</string>
+    <string name="title_delete_user_content">Delete user content</string>
+    <string name="agree">Agree</string>
+    <string name="scroll_down">Scroll\ndown</string>
+    <string name="issue_deleted">Issue deleted</string>
+    <string name="issue_delete_only_owner">This issue can only be deleted by its owner</string>
+    <string name="search">Search</string>
+    <string name="zipcode">Post Code...</string>
+    <string name="search_failed">Post code not found.</string>
+</resources>
